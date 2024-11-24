@@ -40,7 +40,7 @@ def one_six_nine(data: list[Any]):
     return [element for sublist in data for element in sublist]
 
 
-print(one_six_nine(['red', 'white', 'a', 'b', 'black', 'f']))
+print(one_six_nine(["red", "white", "a", "b", "black", "f"]))
 assert one_six_nine(["red", "white", "a", "b", "black", "f"]) == [
     "r",
     "e",

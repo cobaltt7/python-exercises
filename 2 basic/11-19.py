@@ -44,12 +44,7 @@ while two > 0:
 print(one)
 
 # 15
-priorities = {
-    "+": 0,
-    "-": 0,
-    "*": 1,
-    "/": 1,
-}
+priorities = {"+": 0, "-": 0, "*": 1, "/": 1}
 
 
 def test_higher_priority(operator1, operator2):

@@ -18,13 +18,7 @@ print(
 )
 assert five_one(
     ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"], 3
-) == [
-    ["a", "b", "c"],
-    ["d", "e", "f"],
-    ["g", "h", "i"],
-    ["j", "k", "l"],
-    ["m", "n"],
-]
+) == [["a", "b", "c"], ["d", "e", "f"], ["g", "h", "i"], ["j", "k", "l"], ["m", "n"]]
 
 
 def five_two(one: list[Any], two: list[Any]):

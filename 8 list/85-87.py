@@ -4,11 +4,7 @@ def eight_five(x: int, y: int):
 
 
 print(eight_five(2, 3))
-assert eight_five(2, 3) == [
-    [0, 0],
-    [0, 0],
-    [0, 0],
-]
+assert eight_five(2, 3) == [[0, 0], [0, 0], [0, 0]]
 
 
 def eight_six(x: int, y: int):
@@ -17,11 +13,7 @@ def eight_six(x: int, y: int):
 
 
 print(eight_six(3, 3))
-assert eight_six(3, 3) == [
-    [1, 2, 3],
-    [1, 2, 3],
-    [1, 2, 3],
-]
+assert eight_six(3, 3) == [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
 
 
 def eight_seven(data: str):

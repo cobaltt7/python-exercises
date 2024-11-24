@@ -14,7 +14,8 @@ assert (
     one_five_three([0, 1, 3, 5, 0, 3, 4, 5, 0, 8, 0, 3, 6, 0, 3, 1, 1, 0], 0, 5) is True
 )
 assert (
-    one_five_three([0, 1, 3, 5, 0, 3, 4, 5, 0, 8, 0, 3, 6, 0, 3, 1, 1, 0], 8, 3) is False
+    one_five_three([0, 1, 3, 5, 0, 3, 4, 5, 0, 8, 0, 3, 6, 0, 3, 1, 1, 0], 8, 3)
+    is False
 )
 
 

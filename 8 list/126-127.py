@@ -65,7 +65,11 @@ def one_two_seven(data: list[str], splitters: list[str]):
     )
 
 
-print(one_two_seven(["Red color", "Orange#", "Green", "Orange @", "White"], ["#", "color", "@"]))
+print(
+    one_two_seven(
+        ["Red color", "Orange#", "Green", "Orange @", "White"], ["#", "color", "@"]
+    )
+)
 assert one_two_seven(
     ["Red color", "Orange#", "Green", "Orange @", "White"], ["#", "color", "@"]
 ) == {"", "White", "Red", "Green", "Orange"}

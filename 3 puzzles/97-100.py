@@ -52,12 +52,7 @@ def ninetyNine(data):
 
 
 print(ninetyNine("Python-Exercises"))
-assert (
-    ninetyNine(
-        "Python-Exercises",
-    )
-    == "Python   Exercises"
-)
+assert ninetyNine("Python-Exercises") == "Python   Exercises"
 assert ninetyNine("Python_Exercises") == "Python Exercises"
 assert (
     ninetyNine("-Hello,_world!__This_is-so-easy!-")

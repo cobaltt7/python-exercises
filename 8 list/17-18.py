@@ -42,11 +42,18 @@ def eighteen(data: list[Any]):
     output = []
 
     for index, number in enumerate(data):
-        for perm in eighteen(data[:index] + data[index+1:]):
+        for perm in eighteen(data[:index] + data[index + 1 :]):
             output.append((number, *perm))
 
     return output
 
 
 print(eighteen([1, 2, 3]))
-assert eighteen([1, 2, 3]) == [(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1)]
+assert eighteen([1, 2, 3]) == [
+    (1, 2, 3),
+    (1, 3, 2),
+    (2, 1, 3),
+    (2, 3, 1),
+    (3, 1, 2),
+    (3, 2, 1),
+]
