@@ -32,9 +32,7 @@ def fourtyFour():
 
 
 print(fourtyFour())
-assert (
-    fourtyFour()
-    == """1
+assert fourtyFour() == """1
 22
 333
 4444
@@ -43,4 +41,3 @@ assert (
 7777777
 88888888
 999999999"""
-)

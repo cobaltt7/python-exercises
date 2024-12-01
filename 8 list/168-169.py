@@ -14,21 +14,15 @@ def one_six_eight(data: list[str | list[str | float]]):
 
 
 print(one_six_eight(["a", "b", "c", "d", "e", "f"]))
-assert (
-    one_six_eight(["a", "b", "c", "d", "e", "f"])
-    == """a
+assert one_six_eight(["a", "b", "c", "d", "e", "f"]) == """a
 b
 c
 d
 e
 f"""
-)
-assert (
-    one_six_eight([[1, 2, 5], [4, 5, 8], [7, 3, 6]])
-    == """1 4 7
+assert one_six_eight([[1, 2, 5], [4, 5, 8], [7, 3, 6]]) == """1 4 7
 2 5 3
 5 8 6"""
-)
 assert (
     one_six_eight([["a", "b", "c", "d"], ["e", "f", "g", "h"], ["j", "k", "l", "m"]])
     == """a e j

@@ -61,25 +61,21 @@ def one_nine_two(data: List[tuple[Any, ...]]):
 
 
 print(
-    one_nine_two(
-        [
-            (100, "Math"),
-            (80, "Math"),
-            (90, "Math"),
-            (88, "Science", 89),
-            (90, "Science", 92),
-        ]
-    )
-)
-assert one_nine_two(
-    [
+    one_nine_two([
         (100, "Math"),
         (80, "Math"),
         (90, "Math"),
         (88, "Science", 89),
         (90, "Science", 92),
-    ]
-) == [(100,), (80,), (90,), (88, 89), (90, 92)]
+    ])
+)
+assert one_nine_two([
+    (100, "Math"),
+    (80, "Math"),
+    (90, "Math"),
+    (88, "Science", 89),
+    (90, "Science", 92),
+]) == [(100,), (80,), (90,), (88, 89), (90, 92)]
 
 
 def one_nine_three(data: List[List[Any]]):

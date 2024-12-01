@@ -11,34 +11,32 @@ def forty(data: list[str]):
     return output
 
 
-assert forty(
-    [
-        "be",
-        "have",
-        "do",
-        "say",
-        "get",
-        "make",
-        "go",
-        "know",
-        "take",
-        "see",
-        "come",
-        "think",
-        "look",
-        "want",
-        "give",
-        "use",
-        "find",
-        "tell",
-        "ask",
-        "work",
-        "seem",
-        "feel",
-        "leave",
-        "call",
-    ]
-) == {
+assert forty([
+    "be",
+    "have",
+    "do",
+    "say",
+    "get",
+    "make",
+    "go",
+    "know",
+    "take",
+    "see",
+    "come",
+    "think",
+    "look",
+    "want",
+    "give",
+    "use",
+    "find",
+    "tell",
+    "ask",
+    "work",
+    "seem",
+    "feel",
+    "leave",
+    "call",
+]) == {
     "a": ["ask"],
     "b": ["be"],
     "c": ["call", "come"],
@@ -114,10 +112,8 @@ def forty_three(data):
     print(three)
 
 
-forty_three(
-    [
-        ("Black", "#000000", "rgb(0, 0, 0)"),
-        ("Red", "#FF0000", "rgb(255, 0, 0)"),
-        ("Yellow", "#FFFF00", "rgb(255, 255, 0)"),
-    ]
-)
+forty_three([
+    ("Black", "#000000", "rgb(0, 0, 0)"),
+    ("Red", "#FF0000", "rgb(255, 0, 0)"),
+    ("Yellow", "#FFFF00", "rgb(255, 255, 0)"),
+])

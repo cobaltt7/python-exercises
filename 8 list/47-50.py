@@ -31,12 +31,9 @@ def four_eight(data: list[list[Any]]):
 
 
 print(four_eight([["Red"], ["Green"], ["Black"]]))
-assert (
-    four_eight([["Red"], ["Green"], ["Black"]])
-    == """["Red"]
+assert four_eight([["Red"], ["Green"], ["Black"]]) == """["Red"]
 ["Green"]
 ["Black"]"""
-)
 
 
 def four_nine(names: list[str], codes: list[str]):

@@ -36,14 +36,12 @@ assert one_eight_seven([("red", "green"), ("black", "white"), ("orange", "pink")
     "black white",
     "orange pink",
 ]
-assert one_eight_seven(
-    [
-        ("Laiba", "Delacruz"),
-        ("Mali", "Stacey", "Drummond"),
-        ("Raja", "Welch"),
-        ("Saarah", "Stone"),
-    ]
-) == ["Laiba Delacruz", "Mali Stacey Drummond", "Raja Welch", "Saarah Stone"]
+assert one_eight_seven([
+    ("Laiba", "Delacruz"),
+    ("Mali", "Stacey", "Drummond"),
+    ("Raja", "Welch"),
+    ("Saarah", "Stone"),
+]) == ["Laiba Delacruz", "Mali Stacey Drummond", "Raja Welch", "Saarah Stone"]
 
 
 def one_eight_eight(data: list[Sequence[Any]], index: int):

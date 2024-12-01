@@ -26,13 +26,11 @@ assert one_two_nine(
 
 def one_three_zero(data: list[list[Any]]):
     """Write a Python program to count the same pair in three given lists."""
-    return len(
-        [
-            item
-            for index, item in enumerate(data[0])
-            if all(item == sublist[index] for sublist in data[1:])
-        ]
-    )
+    return len([
+        item
+        for index, item in enumerate(data[0])
+        if all(item == sublist[index] for sublist in data[1:])
+    ])
 
 
 print(

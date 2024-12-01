@@ -41,23 +41,21 @@ def one_four_nine(data: set[Any]):
 
 
 print(one_four_nine(set(["orange", "red", "green", "blue"])))
-assert one_four_nine(set(["orange", "red", "green", "blue"])) == set(
-    [
-        (),
-        ("blue",),
-        ("green",),
-        ("orange",),
-        ("red",),
-        ("blue", "green"),
-        ("blue", "red"),
-        ("blue", "orange"),
-        ("green", "orange"),
-        ("green", "red"),
-        ("orange", "red"),
-        ("blue", "green", "red"),
-        ("blue", "green", "orange"),
-        ("blue", "orange", "red"),
-        ("green", "orange", "red"),
-        ("blue", "green", "orange", "red"),
-    ]
-)
+assert one_four_nine(set(["orange", "red", "green", "blue"])) == set([
+    (),
+    ("blue",),
+    ("green",),
+    ("orange",),
+    ("red",),
+    ("blue", "green"),
+    ("blue", "red"),
+    ("blue", "orange"),
+    ("green", "orange"),
+    ("green", "red"),
+    ("orange", "red"),
+    ("blue", "green", "red"),
+    ("blue", "green", "orange"),
+    ("blue", "orange", "red"),
+    ("green", "orange", "red"),
+    ("blue", "green", "orange", "red"),
+])

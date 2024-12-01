@@ -36,27 +36,21 @@ def twenty_six(string):
     return "\n".join(out)
 
 
-print(
-    twenty_six(
-        """
+print(twenty_six("""
   Python is a widely used high-level, general-purpose, interpreted,
   dynamic programming language. Its design philosophy emphasizes
   code readability, and its syntax allows programmers to express
   concepts in fewer lines of code than possible in languages such
   as C++ or Java.
-  """
-    )
-)
+  """))
 assert (
-    twenty_six(
-        """
+    twenty_six("""
   Python is a widely used high-level, general-purpose, interpreted,
   dynamic programming language. Its design philosophy emphasizes
   code readability, and its syntax allows programmers to express
   concepts in fewer lines of code than possible in languages such
   as C++ or Java.
-  """
-    )
+  """)
     == """Python is a widely used high-level,
 general-purpose, interpreted, dynamic programming
 language. Its design philosophy emphasizes code
@@ -73,27 +67,21 @@ def twenty_seven(string):
     return "\n".join([string.strip() for string in string.split("\n")]).strip()
 
 
-print(
-    twenty_seven(
-        """
+print(twenty_seven("""
     Python is a widely used high-level, general-purpose, interpreted,
     dynamic programming language. Its design philosophy emphasizes
     code readability, and its syntax allows programmers to express
     concepts in fewer lines of code than possible in languages such
     as C++ or Java.
-    """
-    )
-)
+    """))
 assert (
-    twenty_seven(
-        """
+    twenty_seven("""
     Python is a widely used high-level, general-purpose, interpreted,
     dynamic programming language. Its design philosophy emphasizes
     code readability, and its syntax allows programmers to express
     concepts in fewer lines of code than possible in languages such
     as C++ or Java.
-    """
-    )
+    """)
     == """Python is a widely used high-level, general-purpose, interpreted,
 dynamic programming language. Its design philosophy emphasizes
 code readability, and its syntax allows programmers to express
@@ -107,27 +95,21 @@ def twenty_eight(string, prefix="> "):
     return "\n".join([prefix + string.strip() for string in string.strip().split("\n")])
 
 
-print(
-    twenty_eight(
-        """
+print(twenty_eight("""
     Python is a widely used high-level, general-purpose, interpreted,
     dynamic programming language. Its design philosophy emphasizes
     code readability, and its syntax allows programmers to express
     concepts in fewer lines of code than possible in languages such
     as C++ or Java.
-    """
-    )
-)
+    """))
 assert (
-    twenty_eight(
-        """
+    twenty_eight("""
     Python is a widely used high-level, general-purpose, interpreted,
     dynamic programming language. Its design philosophy emphasizes
     code readability, and its syntax allows programmers to express
     concepts in fewer lines of code than possible in languages such
     as C++ or Java.
-    """
-    )
+    """)
     == """> Python is a widely used high-level, general-purpose, interpreted,
 > dynamic programming language. Its design philosophy emphasizes
 > code readability, and its syntax allows programmers to express
@@ -143,25 +125,19 @@ def twenty_nine(string):
     ).strip()
 
 
-print(
-    twenty_nine(
-        """
+print(twenty_nine("""
 Python is a widely used high-level, general-purpose, interpreted, dynamic
 programming language. Its design philosophy emphasizes code readability,
 and its syntax allows programmers to express concepts in fewer lines of
 code than possible in languages such as C++ or Java.
-    """
-    )
-)
+    """))
 assert (
-    twenty_nine(
-        """
+    twenty_nine("""
 Python is a widely used high-level, general-purpose, interpreted, dynamic
 programming language. Its design philosophy emphasizes code readability,
 and its syntax allows programmers to express concepts in fewer lines of
 code than possible in languages such as C++ or Java.
-    """
-    )
+    """)
     == """Python is a widely used high-level, general-purpose, interpreted, dynamic
     programming language. Its design philosophy emphasizes code readability,
     and its syntax allows programmers to express concepts in fewer lines of

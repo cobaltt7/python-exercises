@@ -35,21 +35,7 @@ def three(data: list[Any]):
 
 
 print(
-    three(
-        [
-            {"name": "David", "age": 6, "class": "I"},
-            ["Red", "Green", "Black"],
-            "Python Json",
-            (1234),
-            21.34,
-            True,
-            False,
-            None,
-        ]
-    )
-)
-assert three(
-    [
+    three([
         {"name": "David", "age": 6, "class": "I"},
         ["Red", "Green", "Black"],
         "Python Json",
@@ -58,8 +44,18 @@ assert three(
         True,
         False,
         None,
-    ]
-) == [
+    ])
+)
+assert three([
+    {"name": "David", "age": 6, "class": "I"},
+    ["Red", "Green", "Black"],
+    "Python Json",
+    (1234),
+    21.34,
+    True,
+    False,
+    None,
+]) == [
     '{"name": "David", "age": 6, "class": "I"}',
     '["Red", "Green", "Black"]',
     '"Python Json"',

@@ -12,9 +12,7 @@ def twentySeven():
 
 
 print(twentySeven())
-assert (
-    twentySeven()
-    == """*****
+assert twentySeven() == """*****
   * \u0020
   * \u0020
   * \u0020
@@ -22,7 +20,6 @@ assert (
   * \u0020
   * \u0020
 """
-)
 
 
 def twentyEight():
@@ -39,9 +36,7 @@ def twentyEight():
 
 
 print(twentyEight())
-assert (
-    twentyEight()
-    == """*   *
+assert twentyEight() == """*   *
 *   *
 *   *
 *   *
@@ -49,7 +44,6 @@ assert (
 *   *
  ***\u0020
 """
-)
 
 
 def twentyNine():
@@ -72,9 +66,7 @@ def twentyNine():
 
 
 print(twentyNine())
-assert (
-    twentyNine()
-    == """*   *
+assert twentyNine() == """*   *
 *   *
  * *\u0020
   * \u0020
@@ -82,7 +74,6 @@ assert (
 *   *
 *   *
 """
-)
 
 
 def thirty():
@@ -99,9 +90,7 @@ def thirty():
 
 
 print(thirty())
-assert (
-    thirty()
-    == """*******
+assert thirty() == """*******
      *\u0020
     * \u0020
    *  \u0020
@@ -109,7 +98,6 @@ assert (
  *    \u0020
 *******
 """
-)
 
 
 def thirtyOne(num):
