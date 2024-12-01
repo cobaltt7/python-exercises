@@ -93,15 +93,17 @@ assert fiftyOne(50) == [
 ]
 
 print(
-    fiftyTwo([
-        "cat",
-        "catatatatctsa",
-        "abcdefhijklmnop",
-        "124259239185125",
-        "",
-        "foo",
-        "unique",
-    ])
+    fiftyTwo(
+        [
+            "cat",
+            "catatatatctsa",
+            "abcdefhijklmnop",
+            "124259239185125",
+            "",
+            "foo",
+            "unique",
+        ]
+    )
 )
 assert fiftyTwo(
     ["cat", "catatatatctsa", "abcdefhijklmnop", "124259239185125", "", "foo", "unique"]

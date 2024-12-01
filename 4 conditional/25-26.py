@@ -19,7 +19,9 @@ def twentyFive():
 
 
 print(twentyFive())
-assert twentyFive() == """****\u0020
+assert (
+    twentyFive()
+    == """****\u0020
 *   *
 *   *
 ****\u0020
@@ -27,6 +29,7 @@ assert twentyFive() == """****\u0020
 *  *\u0020
 *   *
 """
+)
 
 
 def twentySix():

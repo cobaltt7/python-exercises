@@ -35,16 +35,20 @@ def one_one_three(data: list[dict]):
 
 
 print(
-    one_one_three([
+    one_one_three(
+        [
+            {"Green": "#008000"},
+            {"Black": "#000000"},
+            {"Blue": "#0000FF"},
+            {"Green": "#008000"},
+        ]
+    )
+)
+assert one_one_three(
+    [
         {"Green": "#008000"},
         {"Black": "#000000"},
         {"Blue": "#0000FF"},
         {"Green": "#008000"},
-    ])
-)
-assert one_one_three([
-    {"Green": "#008000"},
-    {"Black": "#000000"},
-    {"Blue": "#0000FF"},
-    {"Green": "#008000"},
-]) == [{"Green": "#008000"}, {"Black": "#000000"}, {"Blue": "#0000FF"}]
+    ]
+) == [{"Green": "#008000"}, {"Black": "#000000"}, {"Blue": "#0000FF"}]

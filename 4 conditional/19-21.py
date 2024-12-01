@@ -14,7 +14,9 @@ def nineteen():
 
 
 print(nineteen())
-assert nineteen() == """*****
+assert (
+    nineteen()
+    == """*****
 *   \u0020
 *   \u0020
 ****\u0020
@@ -22,6 +24,7 @@ assert nineteen() == """*****
 *   \u0020
 *****
 """
+)
 
 
 def twenty():
@@ -44,7 +47,9 @@ def twenty():
 
 
 print(twenty())
-assert twenty() == """ ***\u0020
+assert (
+    twenty()
+    == """ ***\u0020
 *   *
 *   \u0020
 * ***
@@ -52,6 +57,7 @@ assert twenty() == """ ***\u0020
 *   *
  ***\u0020
 """
+)
 
 
 def twentyOne():
@@ -68,7 +74,9 @@ def twentyOne():
 
 
 print(twentyOne())
-assert twentyOne() == """*   \u0020
+assert (
+    twentyOne()
+    == """*   \u0020
 *   \u0020
 *   \u0020
 *   \u0020
@@ -76,3 +84,4 @@ assert twentyOne() == """*   \u0020
 *   \u0020
 *****
 """
+)

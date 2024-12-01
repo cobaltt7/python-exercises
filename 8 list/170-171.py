@@ -55,14 +55,18 @@ def one_seven_one(data: list[list[str]]):
 
 
 print(
-    one_seven_one([
+    one_seven_one(
+        [
+            ["0", "1", "2", "3", "4"],
+            ["red", "green", "black", "blue", "white"],
+            ["100", "200", "300", "400", "500"],
+        ]
+    )
+)
+assert one_seven_one(
+    [
         ["0", "1", "2", "3", "4"],
         ["red", "green", "black", "blue", "white"],
         ["100", "200", "300", "400", "500"],
-    ])
-)
-assert one_seven_one([
-    ["0", "1", "2", "3", "4"],
-    ["red", "green", "black", "blue", "white"],
-    ["100", "200", "300", "400", "500"],
-]) == ["0red100", "1green200", "2black300", "3blue400", "4white500"]
+    ]
+) == ["0red100", "1green200", "2black300", "3blue400", "4white500"]

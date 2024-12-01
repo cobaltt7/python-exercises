@@ -7,11 +7,13 @@ from calendar import month
 print(month(2007, 12))
 
 # 13
-print("""
+print(
+    """
 a string that you "don't" have to escape
 This
 is a ....... multi-line
-heredoc string --------> example""")
+heredoc string --------> example"""
+)
 
 # 14
 from datetime import date

@@ -46,15 +46,17 @@ def eThirty(data):
 
 
 assert (
-    eTwentyEight([
-        "cat",
-        "catatatatctsa",
-        "abcdefhijklmnop",
-        "124259239185125",
-        "",
-        "foo",
-        "unique",
-    ])
+    eTwentyEight(
+        [
+            "cat",
+            "catatatatctsa",
+            "abcdefhijklmnop",
+            "124259239185125",
+            "",
+            "foo",
+            "unique",
+        ]
+    )
     == "abcdefhijklmnop"
 )
 assert eTwentyEight(["Green", "Red", "Orange", "Yellow", "", "White"]) == "Orange"

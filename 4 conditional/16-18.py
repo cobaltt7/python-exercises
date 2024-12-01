@@ -40,7 +40,9 @@ def seventeen():
 
 
 print(seventeen())
-assert seventeen() == """ ***\u0020
+assert (
+    seventeen()
+    == """ ***\u0020
 *   *
 *   *
 *****
@@ -48,6 +50,7 @@ assert seventeen() == """ ***\u0020
 *   *
 *   *
 """
+)
 
 
 def eighteen():
@@ -70,7 +73,9 @@ def eighteen():
 
 
 print(eighteen())
-assert eighteen() == """****\u0020
+assert (
+    eighteen()
+    == """****\u0020
 *   *
 *   *
 *   *
@@ -78,3 +83,4 @@ assert eighteen() == """****\u0020
 *   *
 ****\u0020
 """
+)

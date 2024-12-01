@@ -18,7 +18,9 @@ def twentyTwo():
 
 
 print(twentyTwo())
-assert twentyTwo() == """*       *
+assert (
+    twentyTwo()
+    == """*       *
 *       *
 * *   * *
 *   *   *
@@ -26,6 +28,7 @@ assert twentyTwo() == """*       *
 *       *
 *       *
 """
+)
 
 
 def twentyThree():
@@ -42,7 +45,9 @@ def twentyThree():
 
 
 print(twentyThree())
-assert twentyThree() == """ ***\u0020
+assert (
+    twentyThree()
+    == """ ***\u0020
 *   *
 *   *
 *   *
@@ -50,6 +55,7 @@ assert twentyThree() == """ ***\u0020
 *   *
  ***\u0020
 """
+)
 
 
 def twentyFour():
@@ -68,7 +74,9 @@ def twentyFour():
 
 
 print(twentyFour())
-assert twentyFour() == """****\u0020
+assert (
+    twentyFour()
+    == """****\u0020
 *   *
 *   *
 ****\u0020
@@ -76,3 +84,4 @@ assert twentyFour() == """****\u0020
 *   \u0020
 *   \u0020
 """
+)
