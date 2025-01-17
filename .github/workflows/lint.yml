@@ -21,7 +21,7 @@ jobs:
                   repository: ${{github.event.pull_request.head.repo.full_name}}
 
             - name: Format
-              uses: psf/black@fdabd424e237f89d8b3f53cf8157902bbf850e45
+              uses: psf/black@584d0331c8a73785af8a78fa601c540f5fe7bea2
               with:
                   options: "--preview --unstable -C"
                   jupyter: true
