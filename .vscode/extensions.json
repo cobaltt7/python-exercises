@@ -6,7 +6,9 @@
         "ms-python.isort",
         "ms-python.mypy-type-checker",
         "ms-python.vscode-pylance",
+        "pkief.material-icon-theme",
         "trabpukcip.wolf",
-        "usernamehw.errorlens"
+        "usernamehw.errorlens",
+        "zhuangtongfa.material-theme"
     ]
 }
