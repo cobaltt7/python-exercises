@@ -1,12 +1,12 @@
 {
-  "recommendations": [
-    "mrmlnc.vscode-duplicate",
-    "ms-python.black-formatter",
-    "ms-python.flake8",
-    "ms-python.isort",
-    "ms-python.mypy-type-checker",
-    "ms-python.python",
-    "ms-python.vscode-pylance",
-    "trabpukcip.wolf"
-  ]
+    "recommendations": [
+        "mrmlnc.vscode-duplicate",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.isort",
+        "ms-python.mypy-type-checker",
+        "ms-python.vscode-pylance",
+        "trabpukcip.wolf",
+        "usernamehw.errorlens"
+    ]
 }
