@@ -24,5 +24,9 @@
     "workbench.iconTheme": "material-icon-theme",
     "oneDarkPro.editorTheme": "One Dark Pro Darker",
     "workbench.colorTheme": "One Dark Pro Darker",
-    "pylint.args": ["--disable=invalid-name", "--disable=missing-module-docstring"]
+    "pylint.args": [
+        "--disable=invalid-name",
+        "--disable=missing-module-docstring"
+    ],
+    "git.requireGitUserConfig": false
 }
