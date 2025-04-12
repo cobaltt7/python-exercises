@@ -1,0 +1,10 @@
+name: g4g-ds
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - jupyter
+  - seaborn
+  - numpy
+  - scikit-learn
+  - pandas
