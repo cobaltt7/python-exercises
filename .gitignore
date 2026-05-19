@@ -2,3 +2,6 @@ __pycache__
 .wolf*
 pyproject.toml
 poetry.lock
+.conda
+.mypy_cache
+11 Data Science/output/*.html
