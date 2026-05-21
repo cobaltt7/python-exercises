@@ -38,10 +38,10 @@ assert five("21.34") == 21.34
 
 def six():
     """Write a Python program to create a new JSON file from an existing JSON file."""
-    with open("./data.json", "r", encoding="utf8") as file:
+    with open("./data.json", "r", encoding="utf-8") as file:
         contents = json.load(file)
         contents["hi"] += 1
-        with open("./data-new.json", "w", encoding="utf8") as new_file:
+        with open("./data-new.json", "w", encoding="utf-8") as new_file:
             json.dump(contents, new_file)
 
 

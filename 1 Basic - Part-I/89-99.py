@@ -26,7 +26,7 @@ b = "hello"
 print({"type": type(b), "idenity": id(b), "value": b})
 
 # 94
-print(list(bytes(input("bytes:"), "utf8")))
+print(list(bytes(input("bytes:"), "utf-8")))
 
 # 95
 print(input("string:").isnumeric())
